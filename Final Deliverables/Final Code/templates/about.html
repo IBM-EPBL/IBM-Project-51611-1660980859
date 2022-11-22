@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>starSite_dsce</title>
+</head>
+                    <div class="container my-3">
+                        <h3><span class="badge rounded-pill bg-light text-dark">AI-powered</span>
+                          <span class="badge bg-danger">Nutrition Analyzer</span><span class="badge bg-primary">For</span><span
+                                class="badge bg-success">Fitness</span><span class="badge bg-warning text-dark">Enthusiasts</span></h3>
+                        <hr>
+                        <hr>
+                        <div class="accordion" id="newsAccordion"></div>
+                    </div>
+                    <style>
+                        body {
+                          background-image: url('https://images.pexels.com/photos/326278/pexels-photo-326278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+                          background-repeat: no-repeat;
+                          background-attachment: fixed;
+                          background-size: 100% 100%;
+                        }
+                        </style>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
+    <nav class="navbar" style="background-color: #b7161670;">
+        <a class="navbar-brand" href="file:///D:/001/IBM/ibm/Flask/templates/home.html#">
+          <marquee><img src="https://images.pexels.com/photos/3850219/pexels-photo-3850219.jpeg?auto=compress&cs=tinysrgb&w=600" width="70" height="50" class="d-inline-block align-top" alt=""></marquee>
+          <marquee><img src="https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=600" width="70" height="50" class="d-inline-block align-top" alt=""></marquee>
+          <marquee><img src="https://images.pexels.com/photos/1300975/pexels-photo-1300975.jpeg?auto=compress&cs=tinysrgb&w=600" width="70" height="50" class="d-inline-block align-top" alt=""></marquee>
+          <marquee><img src="https://images.pexels.com/photos/68525/soap-colorful-color-fruit-68525.jpeg?auto=compress&cs=tinysrgb&w=600" width="70" height="50" class="d-inline-block align-top" alt=""></marquee>
+        </a>
+      </nav>
+
+    
+<nav class="navbar-dark bg-dark">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="file:///D:/001/IBM/ibm/Flask/templates/home.html#"><button type="button" class="btn btn-outline-success"><strong>HOME</strong></button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///D:/001/IBM/ibm/Flask/templates/image.html"><button type="button" class="btn btn-outline-danger"><strong>CLASSIFY</strong></button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///D:/001/IBM/ibm/Flask/templates/about.html"><button type="button" class="btn btn-outline-warning"><strong>ABOUT</strong></button></a>
+        </li>
+      </ul>
+    
+
+</nav>
+
+<hr>
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Tools&Resources</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="file:///D:/001/IBM/ibm/Flask/templates/bmiCalculator.html">BMI Calculator</a></li>
+    <li><a class="dropdown-item" href="file:///D:/001/IBM/ibm/Flask/templates/Mind.html">Mindfullness</a></li>
+    <li><a class="dropdown-item" href="file:///D:/001/IBM/ibm/Flask/templates/feedback.html">Feedback</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="https://www.pritikin.com/eating-plan">Diet Plan</a></li>
+    <li><a class="dropdown-item" href="#">Exercise</a></li>
+    <li><a class="dropdown-item" href="#">Events</a></li>
+  </ul>
+</div>
+
+
+
+<hr><hr>
+<style>
+    .accordion {margin-left: 20%;
+        margin-right: 20%;
+    position: absolute;}
+
+</style>
+<div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            💫OVERVIEW 
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div class="accordion-body">
+          <strong>AI-Powered Nutrition Analyzer For Fitness Enthusiasts</strong><br> 
+
+          Food is essential for human life and has been the concern of many healthcare conventions. Nowadays new dietary assessment and nutrition analysis tools enable more opportunities to help people understand their daily eating habits, exploring nutrition patterns and maintain a healthy diet. Nutritional analysis is the process of determining the nutritional content of food. It is a vital part of analytical chemistry that provides information about the chemical composition, processing, quality control and contamination of food. The main aim of the project is to building a model which is used for classifying the fruit depends on the different characteristics like colour, shape, texture etc. Here the user can capture the images of different fruits and then the image will be sent the trained model. The model analyses the image and detect the nutrition based on the fruits like (Sugar, Fibre, Protein, Calories, etc.).
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            💁🏻‍♂️TEAM
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+        <div class="accordion-body">
+          <strong>Team ID: PNT2022TMID43817</strong><br> AI-Powered Nutrition Analyzer For Fitness Enthusiasts Web-Application is developed and maintained by small group of four members: <br><br>😁ASWIN U<br>😁ANSHAD PK<br>😁PRAJODHAY J<br>😁SRAVAN M<br>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            👀HOW IT WORKS
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+        <div class="accordion-body">
+          <strong>Eat Healthy 😇🥗 Stay Fit 💪🏻😎 Enjoy Life 🤩✨</strong>  <img src="https://images.pexels.com/photos/4500115/pexels-photo-4500115.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="cloudy sky">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+</html>
