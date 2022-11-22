@@ -1,0 +1,54 @@
+                   
+                   
+                   
+                    Team ID: PNT2022TMID43817
+                    AI-Powered Nutrition Analyzer For Fitness Enthusiasts Web-Application is developed and maintained by a group of four members: 
+                                                            ASWIN U
+                                                            ANSHAD PK
+                                                            PRAJODHAY J
+                                                            SRAVAN M
+
+
+REQUIREMENTS
+-------------
+
+HTML FILES                                      JS FILES                                    CSS FILES   
+-----------                                   ------------                                  --------------
+
+home.html                                     included as script                            included style tag
+image.html                                    index.js                                      style.css 
+about.html                                    included as script                            included style tag
+imageprediction.html                          index.js                                      style.css 
+mind.html                                     Mindapp.js                                    styleMind.css
+bmiCalculator.html                            included as script                            included style tag
+
+
+PYTHON FILES - app.py  : classifier.py
+------------
+
+// **************      //     ************** //
+
+Use of- IBM Watson studio : Anaconda navigator : jupyter notebook : python : html : css : javascript : pip : anaconda prompt : CNN
+
+packages - flask : numpy : pandas : scikit-learn : tensorflow==2.3.0 : keras=2.4.0 :image classifier
+
+
+
+// **************      //     ************** //
+
+
+
+Project files structure - 
+Dataset > TEST_SET ; TRAIN_SET 
+Flask > Sample_Image ; static ; templates [home.html - image.html - about.html - imageprediction.html - index.js - style.css - .....] ; uploads ; app.py ; nutrition.h5 ; requirements.txt
+Training > training model files
+
+
+// **************      //     ************** //
+
+
+How to run ;
+
+open all files in one single platform/environment
+run " home.html " the webapplication will start working
+
